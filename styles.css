@@ -209,13 +209,12 @@ a {
 }
 
 footer {
-    min-height: 250px;
-    max-height: auto;
+    min-height: 350px;
     background-color: #4f4f4f;
     display: flex;
     align-content: center;
     justify-content: space-evenly;
-    gap: 20px;
+    gap: 60px;
     color: white;
     flex-wrap: wrap;
     padding: 30px;
