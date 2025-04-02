@@ -45,6 +45,7 @@ nav p {
 }
 
 nav button {
+    color: black;
     border: none;
     border-radius: 5px;
     padding: 10px;
@@ -117,7 +118,6 @@ ul {
     gap: 2vh;
     align-items: center;
     justify-content: center;
-    padding: 15px
 }
 
 .project-container {
