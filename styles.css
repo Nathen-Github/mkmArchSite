@@ -118,6 +118,7 @@ ul {
     gap: 2vh;
     align-items: center;
     justify-content: center;
+    padding: 0px 10px 10px 10px;
 }
 
 .project-container {
@@ -229,6 +230,7 @@ footer {
     font-weight: 600;
     display: flex;
     flex-direction: column;
+    font-size: 20px;
 }
 
 #social-title {
@@ -240,8 +242,9 @@ footer {
 #socials {
     display: flex;
     font-size: 25px;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    gap: 30px;
 }
 
 footer p {
