@@ -26,32 +26,13 @@ h1 {
 }
 
 .location {
-    color: #4f4f4f;
+    color: #868585;
     font-weight: 800;
     font-size: 15px;
 }
 
 .project-info {
     font-size: 15px;
-}
-
-.back {
-    display: flex;
-    gap: 5px;
-    cursor: pointer;
-}
-
-.back:hover {
-    font-style: italic;
-}
-
-.back img {
-    width: 25px;
-}
-
-.back p {
-    font-size: 18px;
-    font-weight: 600;
 }
 
 .project-info {
