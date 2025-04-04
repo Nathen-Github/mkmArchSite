@@ -29,9 +29,9 @@ body {
     justify-content: center;
     align-items: center;
     font-weight: 200;
-    gap: 40px;
+    gap: 42px;
     margin-bottom: 20px;
-    font-size: 11px;
+    font-size: 15px;
 }
 
 .divider-vert {
@@ -41,16 +41,16 @@ body {
 }
 
 #splash-title {
-    font-size: 50px;
+    font-size: 76px;
     font-weight: 900;
-    margin-bottom: -25px;
+    margin-bottom: -45px;
 }
 
 #splash-caption {
     color: var(--font-color);
     font-weight: 200;
-    font-size: 25px;
-    margin-bottom: 0px;
+    font-size: 35px;
+    margin-bottom: -5px;
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
