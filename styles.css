@@ -76,6 +76,41 @@ body {
     #main-buttons {
         font-size: 50px !important;
     }
+
+    .service {
+        width: 300px !important;
+        height: 300px !important;
+        font-size: 18px !important;
+    }
+
+    .project-container {
+        width: 400px !important;
+        height: 500px !important;
+    }
+
+    .project-description {
+        font-size: 14px !important;
+        margin-left: 24px !important;
+        width: 350px !important;
+    }
+
+    .img-placeholder {
+        width: 350px !important;
+        height: 450px !important;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .project-title {
+        font-size: 20px !important;
+    }
+
+    .headshot {
+        width: 200px !important;
+        height: 200px !important;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -154,9 +189,10 @@ ul {
     text-align: left;
     width: 230px;
     height: 240px;
+    padding-top: 10px;
     padding-left: 30px;
     padding-right: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 40px;
     background-color: var(--font-color);
     color: var(--background-color);
     border-radius: 10px;
@@ -191,13 +227,18 @@ ul {
     cursor: pointer;
 }
 
+.project-description {
+    margin-left: 30px;
+    align-self:first baseline;
+}
+
 .project-container:hover {
     box-shadow: 5px 5px 10px #23CE6B;
 }
 
 .project-title {
     font-weight: 600;
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .img-placeholder {
@@ -268,28 +309,28 @@ a {
 .contact-container {
     min-height: 300px;
     display: flex;
+    flex-direction: column;
     align-content: center;
     justify-content: space-evenly;
     gap: 60px;
     color: white;
-    flex-wrap: wrap;
     padding: 30px;
 }
 
 #contact-title {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 700;
 }
 
 #contacts {
-    font-weight: 600;
+    font-weight: 500;
     display: flex;
     flex-direction: column;
     font-size: 20px;
 }
 
 #social-title {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 700;
     margin-bottom: 20px;
 }
@@ -333,7 +374,7 @@ a {
 }
 
 .subscreen {
-    margin: 2vw;
+    margin: 5vw;
     text-align: center;
     margin-bottom: 50px;
 }
