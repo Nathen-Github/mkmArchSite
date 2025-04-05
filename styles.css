@@ -111,6 +111,11 @@ body {
         width: 200px !important;
         height: 200px !important;
     }
+
+    .gallery-img {
+        width: 500px !important;
+        height: 500px !important;
+    }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
