@@ -228,7 +228,7 @@ ul {
     box-shadow: 5px 5px 10px #23CE6B;
 }
 
-#projects {
+.projects-grid {
     display: flex;
     flex-wrap: wrap;
     overflow-x: auto;
@@ -236,6 +236,17 @@ ul {
     align-items: center;
     justify-content: center;
     padding: 0px 10px 10px 10px;
+}
+
+.section-title {
+    text-align: left;
+    margin-left: 5vw;
+    font-size: 24px;
+    color: var(--theme-color);
+    border-bottom: 2px solid var(--theme-color);
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    margin-top: 50px;
 }
 
 .project-container {
@@ -426,4 +437,76 @@ a {
     width: 250px;
     height: 250px;
     margin-bottom: -70px;
+}
+
+/* Contact Page Layout & Form Styles */
+.contact-page-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10vw;
+    margin-top: 50px;
+    align-items: flex-start;
+}
+
+.contact-form-container {
+    text-align: left;
+    width: 100%;
+    max-width: 500px;
+}
+
+#form-title {
+    color: var(--theme-color);
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+#contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+#contact-form input, #contact-form textarea {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #333;
+    padding: 10px 0;
+    font-size: 16px;
+    color: var(--font-color);
+    outline: none;
+    font-family: inherit;
+    transition: border-color 0.3s;
+}
+
+#contact-form input::placeholder, #contact-form textarea::placeholder {
+    color: #888;
+}
+
+#contact-form input:focus, #contact-form textarea:focus {
+    border-bottom: 1px solid var(--theme-color);
+}
+
+#contact-form textarea {
+    resize: none;
+    height: 100px;
+}
+
+#contact-form button {
+    background-color: var(--theme-color);
+    color: #ffffff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    cursor: pointer;
+    align-self: flex-start;
+    margin-top: 20px;
+    transition: filter 0.3s;
+}
+
+#contact-form button:hover {
+    filter: brightness(0.85);
 }

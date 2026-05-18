@@ -15,23 +15,39 @@
             <p>BACK</p>
         </div>
     </a>
-    <div class="contact-container">
-        <div class="footer-elem">
-            <p id="contact-title">Reach out:</p>
-            <div id="contacts">
-                <p><a>+91 12345 67891</a></p>
-                <p><a>contact@mukham.com</a></p>
-            </div>
+    <div class="contact-page-wrapper">
+        <div class="contact-form-container">
+            <h2 id="form-title">Contact Form</h2>
+            <form id="contact-form" action="mailto:contact@mukham.com" method="post" enctype="text/plain">
+                <input type="text" name="Name" placeholder="Your Name *" required>
+                <input type="email" name="Email" placeholder="Your Email *" required>
+                <input type="tel" name="Phone" placeholder="Your Number *" required>
+                <input type="text" name="Subject" placeholder="Subject *" required>
+                <textarea name="Message" placeholder="Message *" required></textarea>
+                <button type="submit">SEND MESSAGE</button>
+            </form>
         </div>
-        <div class="footer-elem">
-            <p id="social-title">Stay in the loop:</p>
-            <div id="socials">
-                <a href="#" class="fa fa-facebook"></a>
-                <a href="#" class="fa fa-twitter"></a>
-                <a href="#" class="fa fa-youtube-play"></a>
-                <a href="#" class="fa fa-instagram"></a>
+
+        <div class="contact-container">
+            <div class="footer-elem">
+                <p id="contact-title">Reach out:</p>
+                <div id="contacts">
+                    <p><a>+91 12345 67891</a></p>
+                    <p><a>contact@mukham.com</a></p>
+                </div>
+            </div>
+            <div class="footer-elem">
+                <p id="social-title">Stay in the loop:</p>
+                <div id="socials">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                    <a href="#" class="fa fa-youtube-play"></a>
+                    <a href="#" class="fa fa-instagram"></a>
+                </div>
             </div>
         </div>
     </div>
+
+
 </body>
 </html>
